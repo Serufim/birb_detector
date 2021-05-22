@@ -1,0 +1,34 @@
+.birb_loader__field {
+    border: black dashed 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px 60px;
+    position: relative;
+}
+.download_label{
+    margin-top: 20px;
+}
+.detector_label{
+    margin-bottom: 10px;
+}
+.detector_type{
+    margin-bottom: 10px;
+}
+.load_column{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.detector_confidence{
+    margin-bottom: 15px;
+}
+.preload_image{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center!important;
+    background-size: cover !important;
+}

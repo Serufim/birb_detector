@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+torch = "*"
+pillow = "*"
+pandas = "*"
+requests = "*"
+opencv-python = "*"
+tqdm = "*"
+torchvision = "*"
+pyyaml = "*"
+scipy = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
